@@ -1,7 +1,7 @@
 class Solution {
     public int solution(String s) {
         int answer = 0;
-        answer = Integer.parseInt(s);
+        answer = Integer.valueOf(s);
         return answer;
     }
 }
